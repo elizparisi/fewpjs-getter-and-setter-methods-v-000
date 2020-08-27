@@ -5,13 +5,11 @@ class Circle {
     this.radius = radius;
   }
   
-  set circle.circumference(radius){
-    
-  }
-  
   get diameter(){
     return this.radius * 2;
   }
+  
+  set 
   
   get circumference(){
     return Math.PI * this.diameter;
