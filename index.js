@@ -5,6 +5,10 @@ class Circle {
     this.radius = radius;
   }
   
+  set circle.circumference(radius){
+    
+  }
+  
   get diameter(){
     return this.radius * 2;
   }
@@ -15,9 +19,5 @@ class Circle {
   
   get area(){
     return Math.PI * (this.radius * this.radius)
-  }
-  
-  set radius(radius){
-    this._radius = radius;
   }
 }
